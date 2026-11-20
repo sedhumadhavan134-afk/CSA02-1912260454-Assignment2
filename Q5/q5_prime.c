@@ -32,7 +32,7 @@ int main(void) {
     for(int k=0;k<4;k++) {
         int a1=prime_sqrt_while(a[k]); unsigned long w=checks;
         int a2=prime_sqrt_do(a[k]); unsigned long d=checks;
-        printf("%8lu while=%d/%lu do-while=%d/%lu\\n",a[k],a1,w,a2,d);
+        printf("%8lu while=%d/%lu do-while=%d/%lu\n",a[k],a1,w,a2,d);
     }
     puts("Sieve alternative: O(N log log N) preprocessing, O(1) per query, O(N) memory.");
     return 0;
