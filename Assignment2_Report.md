@@ -15,9 +15,9 @@ Recommended design: calculate gross, discount, taxable subtotal and tax as named
 
 | Price | Qty | Senior | Original total | Intended calculation (before threshold) |
 |---:|---:|---:|---:|---:|
-| 100 | 2 | 1 | 181 | Rs 178.50 |
+| 100 | 2 | 1 | 180 | Rs 178.50 |
 | 250 | 3 | 0 | 787 | Rs 787.50 |
-| 400 | 2 | 1 | 724 | Rs 714.00 |
+| 400 | 2 | 1 | 720 | Rs 714.00 |
 
 These are hand-derived expected values; confirm with the compiled program. The sample C program prints original and corrected totals.
 
