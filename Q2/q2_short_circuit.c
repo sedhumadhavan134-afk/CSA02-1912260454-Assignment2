@@ -10,7 +10,7 @@ int main(void) {
         int eligible = (i % 2 == 0);
         int disability = (i % 10 == 0);
         calls=0;
-        int grant = (senior && eligible) || verify_card(i) && disability;
+        int grant = (senior && eligible) || (verify_card(i) && disability);
         (void)grant; senior_first += calls;
         calls=0;
         grant = (verify_card(i) && disability) || (senior && eligible);
